@@ -1,4 +1,4 @@
 #!/bin/bash
-grep -c "^>" FASTA
+grep -c "^>" $@
 
 echo "Done!"
